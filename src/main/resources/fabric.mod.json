@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cozyingredients",
+	"version": "${version}",
+	"name": "Cozy Ingredients",
+	"description": "Main dependency with basic ingredients. Needed for all mods from our Cozy mods series.",
+	"authors": [
+		"JustErikSK, Satorisek, With Rage Studios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/ : CHANGE THIS LATER",
+		"sources": "https://github.com/FabricMC/fabric-example-mod : CHANGE THIS LATER"
+	},
+	"license": "MIT",
+	"icon": "assets/cozyingredients/icon.png : CHANGE THIS LATER",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.withrage.CozyIngredients"
+		],
+		"client": [
+			"net.withrage.CozyIngredientsClient"
+		],
+		"fabric-datagen": [
+			"net.withrage.CozyIngredientsDataGenerator"
+		]
+	},
+	"mixins": [
+		"cozyingredients.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
