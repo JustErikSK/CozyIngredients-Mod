@@ -1,0 +1,11 @@
+{
+  "item.cozyingredients.apple_jam": "Apple Jam",
+  "item.cozyingredients.sweetberry_jam": "Sweetberry Jam",
+  "item.cozyingredients.glowberry_jam": "Glowberry Jam",
+  "item.cozyingredients.caramel": "Caramel",
+  "item.cozyingredients.nuhtella": "Nuhtella",
+  "item.cozyingredients.salt": "Salt",
+  "item.cozyingredients.butter": "Butter",
+
+  "itemgroup.cozyingredients": "Cozy Ingredients"
+}
