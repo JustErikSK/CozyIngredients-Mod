@@ -29,6 +29,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JAR);
                         entries.add(ModItems.MILK_BOX);
                         entries.add(ModItems.GLASS_OF_WATER);
+                        entries.add(ModItems.WHISK);
                     }).build());
 
     public static void registerItemGroups() {
