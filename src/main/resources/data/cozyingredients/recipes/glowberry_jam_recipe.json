@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cozyingredients:cooking_pot"
+    },
+    {
+      "item": "cozyingredients:jar"
+    },
+    {
+      "item": "minecraft:glowberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:glowberry_jam",
+    "count": 1
+  }
+}

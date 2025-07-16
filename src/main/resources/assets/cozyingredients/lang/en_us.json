@@ -11,6 +11,9 @@
   "item.cozyingredients.ice_cream_cone": "Ice Cream Cone",
   "item.cozyingredients.powdered_sugar": "Powdered Sugar",
   "item.cozyingredients.whipped_cream": "Whipped Cream",
+  "item.cozyingredients.jar": "Jar",
+  "item.cozyingredients.milk_box": "Milk Box",
+  "item.cozyingredients.glass_of_water": "Glass of Water",
 
   "itemgroup.cozyingredients": "Cozy Ingredients"
 }

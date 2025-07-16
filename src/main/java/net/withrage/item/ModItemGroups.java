@@ -26,6 +26,9 @@ public class ModItemGroups {
                         entries.add(ModItems.ICE_CREAM_CONE);
                         entries.add(ModItems.POWDERED_SUGAR);
                         entries.add(ModItems.WHIPPED_CREAM);
+                        entries.add(ModItems.JAR);
+                        entries.add(ModItems.MILK_BOX);
+                        entries.add(ModItems.GLASS_OF_WATER);
                     }).build());
 
     public static void registerItemGroups() {

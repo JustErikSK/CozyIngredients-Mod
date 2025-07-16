@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cozyingredients:cooking_pot"
+    },
+    {
+      "item": "cozyingredients:milk_box"
+    },
+    {
+      "item": "cozyingredients:salt"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:cheese",
+    "count": 1
+  }
+}

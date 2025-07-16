@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cozyingredients:flour"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:nuhtella",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cozyingredients:whisk"
+    },
+    {
+      "item": "cozyingredients:milk_box"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:whipped_cream",
+    "count": 1
+  }
+}

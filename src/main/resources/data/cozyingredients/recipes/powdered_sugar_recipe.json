@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:powdered_sugar",
+    "count": 1
+  }
+}
