@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WHISK);
                         entries.add(ModItems.COOKING_KNIFE);
                         entries.add(ModItems.COOKING_POT);
+                        entries.add(ModItems.TOASTER);
                     }).build());
 
     public static void registerItemGroups() {

@@ -26,6 +26,7 @@ public class ModItems {
     public static final Item WHISK = registerItem("whisk", new Item(new FabricItemSettings()));
     public static final Item COOKING_KNIFE = registerItem("cooking_knife", new Item(new FabricItemSettings()));
     public static final Item COOKING_POT = registerItem("cooking_pot", new Item(new FabricItemSettings()));
+    public static final Item TOASTER = registerItem("toaster", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);
