@@ -6,6 +6,11 @@
   "item.cozyingredients.nuhtella": "Nuhtella",
   "item.cozyingredients.salt": "Salt",
   "item.cozyingredients.butter": "Butter",
+  "item.cozyingredients.cheese": "Cheese",
+  "item.cozyingredients.flour": "Flour",
+  "item.cozyingredients.ice_cream_cone": "Ice Cream Cone",
+  "item.cozyingredients.powdered_sugar": "Powdered Sugar",
+  "item.cozyingredients.whipped_cream": "Whipped Cream",
 
   "itemgroup.cozyingredients": "Cozy Ingredients"
 }

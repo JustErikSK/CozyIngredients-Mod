@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModItems.NUHTELLA);
                         entries.add(ModItems.SALT);
                         entries.add(ModItems.BUTTER);
+                        entries.add(ModItems.CHEESE);
+                        entries.add(ModItems.FLOUR);
+                        entries.add(ModItems.ICE_CREAM_CONE);
+                        entries.add(ModItems.POWDERED_SUGAR);
+                        entries.add(ModItems.WHIPPED_CREAM);
                     }).build());
 
     public static void registerItemGroups() {
