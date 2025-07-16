@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "   ",
+    "A A",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:cooking_pot"
+  }
+}

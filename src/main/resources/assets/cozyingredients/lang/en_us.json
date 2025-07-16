@@ -15,6 +15,8 @@
   "item.cozyingredients.milk_box": "Milk Box",
   "item.cozyingredients.glass_of_water": "Glass of Water",
   "item.cozyingredients.whisk": "Whisk",
+  "item.cozyingredients.cooking_knife": "Cooking Knife",
+  "item.cozyingredients.cooking_pot": "Cooking Pot",
 
   "itemgroup.cozyingredients": "Cozy Ingredients"
 }
