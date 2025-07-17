@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.withrage.CozyIngredients;
+import net.withrage.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup COZY_INGREDIENTS = Registry.register(Registries.ITEM_GROUP,
@@ -32,7 +33,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WHISK);
                         entries.add(ModItems.COOKING_KNIFE);
                         entries.add(ModItems.COOKING_POT);
-                        entries.add(ModItems.TOASTER);
+                        entries.add(ModBlocks.TOASTER);
                         entries.add(ModItems.SLICE_OF_BREAD);
                     }).build());
 

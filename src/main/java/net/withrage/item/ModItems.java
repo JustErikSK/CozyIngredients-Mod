@@ -26,7 +26,6 @@ public class ModItems {
     public static final Item WHISK = registerItem("whisk", new Item(new FabricItemSettings()));
     public static final Item COOKING_KNIFE = registerItem("cooking_knife", new Item(new FabricItemSettings()));
     public static final Item COOKING_POT = registerItem("cooking_pot", new Item(new FabricItemSettings()));
-    public static final Item TOASTER = registerItem("toaster", new Item(new FabricItemSettings()));
     public static final Item SLICE_OF_BREAD = registerItem("slice_of_bread", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {

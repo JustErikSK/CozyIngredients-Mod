@@ -7,6 +7,7 @@ import net.minecraft.recipe.RecipeType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.withrage.block.ModBlocks;
 import net.withrage.item.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +21,7 @@ public class CozyIngredients implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static final RecipeSerializer<GlassOfWaterRecipe> GLASS_OF_WATER_RECIPE_RECIPE_SERIALIZER =
