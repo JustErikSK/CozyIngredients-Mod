@@ -32,8 +32,13 @@ public class ToasterScreenHandler extends ScreenHandler {
         this.propertyDelegate = arrayPropertyDelegate;
         this.blockEntity = ((ToasterBlockEntity) blockEntity);
 
-        this.addSlot(new Slot(inventory, 0, 80, 11));
         this.addSlot(new Slot(inventory, 1, 80, 59));
+        this.addSlot(new Slot(inventory, 0, 80, 11) {
+             @Override
+             public boolean canInsert(ItemStack stack) {
+                 return false;
+             }
+        });
 
 
         addPlayerInventory(playerInventory);
