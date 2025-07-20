@@ -1,36 +1,31 @@
 package net.withrage.block.custom;
 
-import net.minecraft.block.*;
-import net.minecraft.block.entity.BlockEntity;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.HorizontalFacingBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.BlockMirror;
 import net.minecraft.util.BlockRotation;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-import net.withrage.block.entity.ToasterBlockEntity;
 import org.jetbrains.annotations.Nullable;
 
-public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityProvider {
+public class CuttingBoardBlock extends HorizontalFacingBlock {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
-    public ToasterBlock(Settings settings) {
+    public CuttingBoardBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
     }
 
-    private static final VoxelShape SHAPE = Block.createCuboidShape(5, 0, 3, 11, 6, 13);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(2.5, 0, 1, 13.5, 1, 15);
 
     @SuppressWarnings("deprecation")
     @Override
@@ -84,20 +79,5 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
-
-    @Override
-    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new ToasterBlockEntity(pos, state);
-    }
-
-    @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!world.isClient) {
-            BlockEntity be = world.getBlockEntity(pos);
-            if (be instanceof ToasterBlockEntity) {
-                player.openHandledScreen((NamedScreenHandlerFactory) be);
-            }
-        }
-        return ActionResult.SUCCESS;
-    }
 }
+

@@ -35,6 +35,19 @@ public class ModItemGroups {
                         entries.add(ModItems.COOKING_POT);
                         entries.add(ModBlocks.TOASTER);
                         entries.add(ModItems.SLICE_OF_BREAD);
+                        entries.add(ModItems.BOILED_EGG);
+                        entries.add(ModItems.BURGER_BUN);
+                        entries.add(ModItems.BURNED_TOAST);
+                        entries.add(ModBlocks.CLOTH);
+                        entries.add(ModBlocks.CUTTING_BOARD);
+                        entries.add(ModItems.NOODLES);
+                        entries.add(ModItems.PAN);
+                        entries.add(ModItems.RAW_CHIPS);
+                        entries.add(ModItems.RAW_FRIES);
+                        entries.add(ModItems.STARCH);
+                        entries.add(ModItems.SUNNY_SIDE_EGG);
+                        entries.add(ModItems.TOAST);
+                        entries.add(ModItems.FISHCAKE);
                     }).build());
 
     public static void registerItemGroups() {

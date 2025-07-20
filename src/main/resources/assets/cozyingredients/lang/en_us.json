@@ -17,8 +17,22 @@
   "item.cozyingredients.whisk": "Whisk",
   "item.cozyingredients.cooking_knife": "Cooking Knife",
   "item.cozyingredients.cooking_pot": "Cooking Pot",
-  "block.cozyingredients.toaster": "Toaster",
   "item.cozyingredients.slice_of_bread": "Slice of Bread",
+  "item.cozyingredients.boiled_egg": "Boiled Egg",
+  "item.cozyingredients.burger_bun": "Burger Bun",
+  "item.cozyingredients.burned_toast": "Burned Toast",
+  "item.cozyingredients.noodles": "Noodles",
+  "item.cozyingredients.pan": "Pan",
+  "item.cozyingredients.raw_chips": "Raw Chips",
+  "item.cozyingredients.raw_fries": "Raw Fries",
+  "item.cozyingredients.starch": "Starch",
+  "item.cozyingredients.sunny_side_egg": "Sunny Side Egg",
+  "item.cozyingredients.toast": "Toast",
+  "item.cozyingredients.fishcake": "Fishcake",
+
+  "block.cozyingredients.toaster": "Toaster",
+  "block.cozyingredients.cloth": "Cloth",
+  "block.cozyingredients.cutting_board": "Cutting Board",
 
   "itemgroup.cozyingredients": "Cozy Ingredients"
 }

@@ -10,12 +10,20 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.withrage.CozyIngredients;
+import net.withrage.block.custom.ClothBlock;
+import net.withrage.block.custom.CuttingBoardBlock;
 import net.withrage.block.custom.ToasterBlock;
 
 public class ModBlocks {
 
     public static final Block TOASTER = registerBlock("toaster",
             new ToasterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    public static final Block CLOTH = registerBlock("cloth",
+            new ClothBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+
+    public static final Block CUTTING_BOARD = registerBlock("cutting_board",
+            new CuttingBoardBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

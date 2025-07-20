@@ -27,6 +27,17 @@ public class ModItems {
     public static final Item COOKING_KNIFE = registerItem("cooking_knife", new Item(new FabricItemSettings()));
     public static final Item COOKING_POT = registerItem("cooking_pot", new Item(new FabricItemSettings()));
     public static final Item SLICE_OF_BREAD = registerItem("slice_of_bread", new Item(new FabricItemSettings()));
+    public static final Item BOILED_EGG = registerItem("boiled_egg", new Item(new FabricItemSettings()));
+    public static final Item BURGER_BUN = registerItem("burger_bun", new Item(new FabricItemSettings()));
+    public static final Item BURNED_TOAST = registerItem("burned_toast", new Item(new FabricItemSettings()));
+    public static final Item NOODLES = registerItem("noodles", new Item(new FabricItemSettings()));
+    public static final Item PAN = registerItem("pan", new Item(new FabricItemSettings()));
+    public static final Item RAW_CHIPS = registerItem("raw_chips", new Item(new FabricItemSettings()));
+    public static final Item RAW_FRIES = registerItem("raw_fries", new Item(new FabricItemSettings()));
+    public static final Item STARCH = registerItem("starch", new Item(new FabricItemSettings()));
+    public static final Item SUNNY_SIDE_EGG = registerItem("sunny_side_egg", new Item(new FabricItemSettings()));
+    public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings()));
+    public static final Item FISHCAKE = registerItem("fishcake", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);
