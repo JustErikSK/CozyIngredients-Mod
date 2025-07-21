@@ -42,11 +42,11 @@ public class ToasterScreen extends HandledScreen<ToasterScreenHandler> {
             int progress = handler.getScaledProgress();
             int arrowFullHeight = 16;
             int drawX = x + 85;
-            int drawY = y + 30 + (arrowFullHeight - progress);
+            int drawY = y + 40 + (arrowFullHeight - progress);
             int textureU = 176;
-            int textureV = arrowFullHeight - progress;
+            int textureV = 25 - progress;
 
-            context.drawTexture(TEXTURE, drawX, drawY, textureU, textureV, 8, progress);
+            context.drawTexture(TEXTURE, drawX, drawY, textureU, textureV, 6, progress);
         }
     }
 
