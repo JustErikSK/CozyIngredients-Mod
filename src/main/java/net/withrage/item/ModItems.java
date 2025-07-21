@@ -38,6 +38,12 @@ public class ModItems {
     public static final Item SUNNY_SIDE_UP_EGG = registerItem("sunny_side_up_egg", new Item(new FabricItemSettings()));
     public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings()));
     public static final Item FISHCAKE = registerItem("fishcake", new Item(new FabricItemSettings()));
+    public static final Item CLEAVER = registerItem("cleaver", new Item(new FabricItemSettings()));
+    public static final Item MINCED_BEEF = registerItem("minced_beef", new Item(new FabricItemSettings()));
+    public static final Item MINCED_CHICKEN = registerItem("minced_chicken", new Item(new FabricItemSettings()));
+    public static final Item MINCED_LAMB = registerItem("minced_lamb", new Item(new FabricItemSettings()));
+    public static final Item MINCED_PORK = registerItem("minced_pork", new Item(new FabricItemSettings()));
+    public static final Item COOKIE_CUTTER = registerItem("cookie_cutter", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);

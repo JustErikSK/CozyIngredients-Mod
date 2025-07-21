@@ -48,6 +48,12 @@ public class ModItemGroups {
                         entries.add(ModItems.SUNNY_SIDE_UP_EGG);
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.FISHCAKE);
+                        entries.add(ModItems.CLEAVER);
+                        entries.add(ModItems.MINCED_BEEF);
+                        entries.add(ModItems.MINCED_CHICKEN);
+                        entries.add(ModItems.MINCED_LAMB);
+                        entries.add(ModItems.MINCED_PORK);
+                        entries.add(ModItems.COOKIE_CUTTER);
                     }).build());
 
     public static void registerItemGroups() {
