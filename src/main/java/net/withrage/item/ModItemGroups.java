@@ -45,7 +45,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_CHIPS);
                         entries.add(ModItems.RAW_FRIES);
                         entries.add(ModItems.STARCH);
-                        entries.add(ModItems.SUNNY_SIDE_EGG);
+                        entries.add(ModItems.SUNNY_SIDE_UP_EGG);
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.FISHCAKE);
                     }).build());

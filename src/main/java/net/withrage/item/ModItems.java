@@ -35,7 +35,7 @@ public class ModItems {
     public static final Item RAW_CHIPS = registerItem("raw_chips", new Item(new FabricItemSettings()));
     public static final Item RAW_FRIES = registerItem("raw_fries", new Item(new FabricItemSettings()));
     public static final Item STARCH = registerItem("starch", new Item(new FabricItemSettings()));
-    public static final Item SUNNY_SIDE_EGG = registerItem("sunny_side_egg", new Item(new FabricItemSettings()));
+    public static final Item SUNNY_SIDE_UP_EGG = registerItem("sunny_side_up_egg", new Item(new FabricItemSettings()));
     public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings()));
     public static final Item FISHCAKE = registerItem("fishcake", new Item(new FabricItemSettings()));
 
