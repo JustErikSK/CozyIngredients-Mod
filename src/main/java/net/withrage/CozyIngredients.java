@@ -7,10 +7,11 @@ import net.minecraft.recipe.RecipeType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.withrage.block.ModBlockEntities;
+import net.withrage.block.entity.ModBlockEntities;
 import net.withrage.block.ModBlocks;
 import net.withrage.block.screen.ModScreenHandlers;
 import net.withrage.item.*;
+import net.withrage.recipe.ModRecipes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,7 +27,7 @@ public class CozyIngredients implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModScreenHandlers.registerScreenHandlers();
 		ModBlockEntities.registerBlockEntities();
-		ModBlockEntities.registerAll();
+		ModRecipes.registerRecipes();
 	}
 
 	public static final RecipeSerializer<GlassOfWaterRecipe> GLASS_OF_WATER_RECIPE_RECIPE_SERIALIZER =

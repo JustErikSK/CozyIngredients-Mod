@@ -38,8 +38,15 @@ public class ToasterScreen extends HandledScreen<ToasterScreenHandler> {
     }
 
     private void renderProgressArrow(DrawContext context, int x, int y) {
-        if(handler.isCrafting()) {
-            context.drawTexture(TEXTURE, x + 85, y + 30, 176, 0, 8, handler.getScaledProgress());
+        if (handler.isCrafting()) {
+            int progress = handler.getScaledProgress();
+            int arrowFullHeight = 16;
+            int drawX = x + 85;
+            int drawY = y + 30 + (arrowFullHeight - progress);
+            int textureU = 176;
+            int textureV = arrowFullHeight - progress;
+
+            context.drawTexture(TEXTURE, drawX, drawY, textureU, textureV, 8, progress);
         }
     }
 

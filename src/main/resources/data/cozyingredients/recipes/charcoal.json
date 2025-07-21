@@ -1,0 +1,10 @@
+{
+  "type": "cozyingredients:toasting",
+  "input": {
+    "item": "cozyingredients:burned_toast"
+  },
+  "output": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

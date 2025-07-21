@@ -1,0 +1,10 @@
+{
+  "type": "cozyingredients:toasting",
+  "input": {
+    "item": "cozyingredients:slice_of_bread"
+  },
+  "output": {
+    "item": "cozyingredients:toast",
+    "count": 1
+  }
+}

@@ -17,7 +17,6 @@ import net.minecraft.text.Text;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.withrage.block.ModBlockEntities;
 import net.withrage.block.screen.ToasterScreenHandler;
 import net.withrage.item.ModItems;
 import org.jetbrains.annotations.Nullable;
@@ -25,8 +24,8 @@ import org.jetbrains.annotations.Nullable;
 public class ToasterBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
 
-    private static final int INPUT_SLOT = 0;
-    private static final int OUTPUT_SLOT = 1;
+    private static final int INPUT_SLOT = 1;
+    private static final int OUTPUT_SLOT = 0;
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;

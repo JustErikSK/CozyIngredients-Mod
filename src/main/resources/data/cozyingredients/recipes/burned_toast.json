@@ -1,0 +1,10 @@
+{
+  "type": "cozyingredients:toasting",
+  "input": {
+    "item": "cozyingredients:toast"
+  },
+  "output": {
+    "item": "cozyingredients:burned_toast",
+    "count": 1
+  }
+}

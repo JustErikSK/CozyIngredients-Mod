@@ -2,16 +2,15 @@ package net.withrage.block.custom;
 
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.BlockEntityTicker;
+import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.BlockMirror;
-import net.minecraft.util.BlockRotation;
-import net.minecraft.util.Hand;
+import net.minecraft.util.*;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -19,6 +18,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.withrage.block.entity.ModBlockEntities;
 import net.withrage.block.entity.ToasterBlockEntity;
 import org.jetbrains.annotations.Nullable;
 
@@ -32,7 +32,6 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
 
     private static final VoxelShape SHAPE = Block.createCuboidShape(5, 0, 3, 11, 6, 13);
 
-    @SuppressWarnings("deprecation")
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction direction = state.get(Properties.HORIZONTAL_FACING);
@@ -91,6 +90,18 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
     }
 
     @Override
+    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
+        if (state.getBlock() != newState.getBlock()) {
+            BlockEntity blockEntity = world.getBlockEntity(pos);
+            if (blockEntity instanceof ToasterBlockEntity) {
+                ItemScatterer.spawn(world, pos, (ToasterBlockEntity)blockEntity);
+                world.updateComparators(pos,this);
+            }
+            super.onStateReplaced(state, world, pos, newState, moved);
+        }
+    }
+
+    @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient) {
             BlockEntity be = world.getBlockEntity(pos);
@@ -99,5 +110,12 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
             }
         }
         return ActionResult.SUCCESS;
+    }
+
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+        return world.isClient() ? null : (type == ModBlockEntities.TOASTER ? (BlockEntityTicker<T>) (world1, pos, state1, be) -> {
+            ((ToasterBlockEntity) be).tick(world1, pos, state1);
+        } : null);
     }
 }
