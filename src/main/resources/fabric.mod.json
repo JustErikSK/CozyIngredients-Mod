@@ -8,11 +8,11 @@
 		"JustErikSK, Satorisek, With Rage Studios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/ : CHANGE THIS LATER",
-		"sources": "https://github.com/FabricMC/fabric-example-mod : CHANGE THIS LATER"
+		"homepage": "https://modrinth.com/mod/cozy-ingredients-mod",
+		"sources": "https://github.com/JustErikSK/CozyIngredients-Mod"
 	},
 	"license": "MIT",
-	"icon": "assets/cozyingredients/icon.png : CHANGE THIS LATER",
+	"icon": "assets/cozyingredients/cozyingredients_mod-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
