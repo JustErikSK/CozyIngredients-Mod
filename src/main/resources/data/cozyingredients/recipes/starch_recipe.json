@@ -3,7 +3,7 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "minecraft:water_bucket"
+      "item": "cozyingredients:glass_of_water"
     },
     {
       "item": "minecraft:potato"
