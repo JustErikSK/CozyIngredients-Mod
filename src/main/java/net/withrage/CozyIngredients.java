@@ -57,4 +57,18 @@ public class CozyIngredients implements ModInitializer {
 							return "cozyingredients:milk_box";
 						}
 					});
+
+	public static final StarchRecipeSerializer STARCH_RECIPE_RECIPE_SERIALIZER =
+			Registry.register(Registries.RECIPE_SERIALIZER,
+					new Identifier("cozyingredients", "starch"),
+					new StarchRecipeSerializer());
+
+	public static final RecipeType<StarchRecipe> STARCH_RECIPE_RECIPE_TYPE =
+			Registry.register(Registries.RECIPE_TYPE,
+					new Identifier("cozyingredients", "starch"),
+					new RecipeType<>() {
+						public String toString() {
+							return "cozyingredients:starch";
+						}
+					});
 }

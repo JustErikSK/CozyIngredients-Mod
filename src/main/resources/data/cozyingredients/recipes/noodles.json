@@ -3,17 +3,17 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:cooking_pot"
+      "item": "cozyingredients:cleaver"
     },
     {
-      "item": "cozyingredients:milk_box"
+      "item": "cozyingredients:dough"
     },
     {
       "item": "cozyingredients:salt"
     }
   ],
   "result": {
-    "item": "cozyingredients:cheese",
+    "item": "cozyingredients:noodles",
     "count": 1
   }
 }

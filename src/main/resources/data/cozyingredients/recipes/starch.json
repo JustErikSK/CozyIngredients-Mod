@@ -3,14 +3,14 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:whisk"
+      "item": "minecraft:water_bucket"
     },
     {
-      "item": "cozyingredients:whipped_cream"
+      "item": "minecraft:potato"
     }
   ],
   "result": {
-    "item": "cozyingredients:butter",
+    "item": "cozyingredients:starch",
     "count": 1
   }
 }

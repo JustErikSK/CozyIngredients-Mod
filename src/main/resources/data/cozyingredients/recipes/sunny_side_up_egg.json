@@ -3,14 +3,14 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:whisk"
+      "item": "cozyingredients:pan"
     },
     {
-      "item": "cozyingredients:whipped_cream"
+      "item": "minecraft:egg"
     }
   ],
   "result": {
-    "item": "cozyingredients:butter",
+    "item": "cozyingredients:sunny_side_up_egg",
     "count": 1
   }
 }

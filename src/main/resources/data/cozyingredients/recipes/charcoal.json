@@ -1,5 +1,6 @@
 {
   "type": "cozyingredients:toasting",
+  "category": "misc",
   "input": {
     "item": "cozyingredients:burned_toast"
   },

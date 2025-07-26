@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "ABC",
+    "DE ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "cozyingredients:starch"
+    },
+    "B": {
+      "tag": "minecraft:fish"
+    },
+    "C": {
+      "item": "minecraft:red_dye"
+    },
+    "D": {
+      "item": "cozyingredients:salt"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:fishcake"
+  }
+}

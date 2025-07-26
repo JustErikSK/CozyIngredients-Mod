@@ -3,14 +3,14 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:whisk"
+      "item": "cozyingredients:cooking_pot"
     },
     {
-      "item": "cozyingredients:whipped_cream"
+      "item": "minecraft:egg"
     }
   ],
   "result": {
-    "item": "cozyingredients:butter",
+    "item": "cozyingredients:boiled_egg",
     "count": 1
   }
 }
