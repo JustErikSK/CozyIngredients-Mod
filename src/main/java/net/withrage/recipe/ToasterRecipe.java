@@ -1,16 +1,16 @@
 package net.withrage.recipe;
 
-import net.minecraft.inventory.SimpleInventory;
+import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.*;
 import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 
-public class ToasterRecipe implements Recipe<SimpleInventory> {
+public class ToasterRecipe implements Recipe<Inventory> {
     private final Identifier id;
-    final Ingredient input;
-    final ItemStack output;
+    private final Ingredient input;
+    private final ItemStack output;
 
     public ToasterRecipe(Identifier id, Ingredient input, ItemStack output) {
         this.id = id;
@@ -19,12 +19,12 @@ public class ToasterRecipe implements Recipe<SimpleInventory> {
     }
 
     @Override
-    public boolean matches(SimpleInventory inv, World world) {
-        return input.test(inv.getStack(0));
+    public boolean matches(Inventory inv, World world) {
+        return input.test(inv.getStack(1));
     }
 
     @Override
-    public ItemStack craft(SimpleInventory inventory, DynamicRegistryManager registryManager) {
+    public ItemStack craft(Inventory inventory, DynamicRegistryManager registryManager) {
         return output.copy();
     }
 
@@ -35,7 +35,11 @@ public class ToasterRecipe implements Recipe<SimpleInventory> {
 
     @Override
     public ItemStack getOutput(DynamicRegistryManager registryManager) {
-        return output;
+        return output.copy();
+    }
+
+    public Ingredient getInput() {
+        return input;
     }
 
     @Override

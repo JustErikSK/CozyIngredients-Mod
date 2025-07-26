@@ -19,7 +19,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.withrage.block.screen.ToasterScreenHandler;
 import net.withrage.item.ModItems;
+import net.withrage.recipe.ModRecipes;
+import net.withrage.recipe.ToasterRecipe;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class ToasterBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory, ImplementedInventory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
@@ -94,17 +98,17 @@ public class ToasterBlockEntity extends BlockEntity implements ExtendedScreenHan
     }
 
     public void tick(World world, BlockPos pos, BlockState state) {
-        if(world.isClient()) {
-            return;
-        }
+        if(world.isClient()) return;
 
-        if(isOutputSlotEmptyOrReceivable()) {
-            if(this.hasRecipe()) {
+        Optional<ToasterRecipe> recipe = getCurrentRecipe();
+
+        if (isOutputSlotEmptyOrReceivable()) {
+            if (recipe.isPresent() && canInsertItemIntoOutputSlot(recipe.get().getOutput(world.getRegistryManager()).getItem())) {
                 this.increaseCraftProgress();
                 markDirty(world, pos, state);
 
-                if(hasCraftingFinished()) {
-                    this.craftItem();
+                if (hasCraftingFinished()) {
+                    this.craftItem(recipe.get());
                     this.resetProgress();
                 }
             } else {
@@ -120,9 +124,9 @@ public class ToasterBlockEntity extends BlockEntity implements ExtendedScreenHan
         this.progress = 0;
     }
 
-    private void craftItem() {
+    private void craftItem(ToasterRecipe recipe) {
         this.removeStack(INPUT_SLOT, 1);
-        ItemStack result = new ItemStack(ModItems.TOAST);
+        ItemStack result = recipe.getOutput(world.getRegistryManager());
 
         this.setStack(OUTPUT_SLOT, new ItemStack(result.getItem(), getStack(OUTPUT_SLOT).getCount() + result.getCount()));
     }
@@ -135,11 +139,8 @@ public class ToasterBlockEntity extends BlockEntity implements ExtendedScreenHan
         progress++;
     }
 
-    private boolean hasRecipe() {
-        ItemStack result = new ItemStack(ModItems.TOAST);
-        boolean hasInput = getStack(INPUT_SLOT).getItem() == ModItems.SLICE_OF_BREAD;
-
-        return hasInput && canInsertAmountIntoOutputSlot(result) && canInsertItemIntoOutputSlot(result.getItem());
+    private Optional<ToasterRecipe> getCurrentRecipe() {
+        return world.getRecipeManager().getFirstMatch(ModRecipes.TOASTER_TYPE, this, world);
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {

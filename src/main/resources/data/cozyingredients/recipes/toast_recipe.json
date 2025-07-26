@@ -1,6 +1,5 @@
 {
   "type": "cozyingredients:toasting",
-  "category": "food",
   "input": {
     "item": "cozyingredients:slice_of_bread"
   },
