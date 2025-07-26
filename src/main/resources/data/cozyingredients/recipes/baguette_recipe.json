@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "  A",
+    " A ",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "item": "cozyingredients:dough"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:baguette"
+  }
+}

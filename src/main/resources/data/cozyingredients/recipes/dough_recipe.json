@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:glass_of_water"
+    },
+    {
+      "item": "cozyingredients:flour"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:dough",
+    "count": 1
+  }
+}

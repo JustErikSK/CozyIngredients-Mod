@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:minced_chicken"
+    },
+    {
+      "item": "cozyingredients:flour"
+    },
+    {
+      "item": "cozyingredients:cookie_cutter"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:raw_dino_nuggets",
+    "count": 1
+  }
+}

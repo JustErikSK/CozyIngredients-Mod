@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:cookie_cutter"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:bagel",
+    "count": 1
+  }
+}
