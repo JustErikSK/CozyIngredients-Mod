@@ -35,6 +35,10 @@
   "item.cozyingredients.minced_lamb": "Minced Lamb",
   "item.cozyingredients.minced_pork": "Minced Pork",
   "item.cozyingredients.cookie_cutter": "Cookie Cutter",
+  "item.cozyingredients.bagel": "Bagel",
+  "item.cozyingredients.baguette": "Baguette",
+  "item.cozyingredients.raw_dino_nuggets": "Raw Dino Nuggets",
+  "item.cozyingredients.dough": "Dough",
 
   "block.cozyingredients.toaster": "Toaster",
   "block.cozyingredients.cloth": "Cloth",

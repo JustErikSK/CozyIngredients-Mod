@@ -54,6 +54,10 @@ public class ModItemGroups {
                         entries.add(ModItems.MINCED_LAMB);
                         entries.add(ModItems.MINCED_PORK);
                         entries.add(ModItems.COOKIE_CUTTER);
+                        entries.add(ModItems.BAGEL);
+                        entries.add(ModItems.BAGUETTE);
+                        entries.add(ModItems.RAW_DINO_NUGGETS);
+                        entries.add(ModItems.DOUGH);
                     }).build());
 
     public static void registerItemGroups() {
