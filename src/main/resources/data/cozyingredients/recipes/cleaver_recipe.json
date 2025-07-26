@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "tools",
   "pattern": [
-    "BAA",
-    "   ",
+    "ABB",
+    " BB",
     "   "
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:stick"
     },
     "B": {
-      "item": "minecraft:stick"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "cozyingredients:cooking_knife"
+    "item": "cozyingredients:cleaver"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " A ",
+    "A A",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:cookie_cutter"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "cozyingredients:cleaver"
+    },
+    {
+      "item": "cozyingredients:cutting_board"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:minced_pork",
+    "count": 1
+  }
+}
