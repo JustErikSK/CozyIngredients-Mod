@@ -48,6 +48,8 @@ public class ModItems {
     public static final Item BAGUETTE = registerItem("baguette", new Item(new FabricItemSettings()));
     public static final Item RAW_DINO_NUGGETS = registerItem("raw_dino_nuggets", new Item(new FabricItemSettings()));
     public static final Item DOUGH = registerItem("dough", new Item(new FabricItemSettings()));
+    public static final Item RAW_BACON = registerItem("raw_bacon", new Item(new FabricItemSettings()));
+    public static final Item BACON = registerItem("bacon", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);

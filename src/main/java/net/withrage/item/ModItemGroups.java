@@ -58,6 +58,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.RAW_DINO_NUGGETS);
                         entries.add(ModItems.DOUGH);
+                        entries.add(ModItems.RAW_BACON);
+                        entries.add(ModItems.BACON);
                     }).build());
 
     public static void registerItemGroups() {
