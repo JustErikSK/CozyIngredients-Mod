@@ -46,5 +46,8 @@
   "block.cozyingredients.cloth": "Cloth",
   "block.cozyingredients.cutting_board": "Cutting Board",
 
+  "tooltip.cozyingredients.toast": "Made from a tasty Slice of Bread in a Toaster!",
+  "tooltip.cozyingredients.burnedtoast": "Ever burned a toast in your Toaster?",
+
   "itemgroup.cozyingredients": "Cozy Ingredients"
 }
