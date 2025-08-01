@@ -195,7 +195,7 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent TOAST = new FoodComponent.Builder()
-            .hunger(6)
+            .hunger(7)
             .saturationModifier(0.55f)
             .build();
 }
