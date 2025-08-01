@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SLICE_OF_BREAD);
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.BURNED_TOAST);
+                        entries.add(ModItems.CROISSANT);
                         entries.add(ModItems.BURGER_BUN);
                         entries.add(ModItems.BAGEL);
                         entries.add(ModItems.BAGUETTE);

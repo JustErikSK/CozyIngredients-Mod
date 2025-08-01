@@ -53,6 +53,7 @@ public class ModItems {
     public static final Item DOUGH = registerItem("dough", new Item(new FabricItemSettings()));
     public static final Item RAW_BACON = registerItem("raw_bacon", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_BACON)));
     public static final Item BACON = registerItem("bacon", new Item(new FabricItemSettings().food(ModFoodComponents.BACON)));
+    public static final Item CROISSANT = registerItem("croissant", new Item(new FabricItemSettings().food(ModFoodComponents.CROISSANT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);

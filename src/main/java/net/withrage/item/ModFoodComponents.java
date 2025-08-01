@@ -198,4 +198,9 @@ public class ModFoodComponents {
             .hunger(7)
             .saturationModifier(0.55f)
             .build();
+
+    public static final FoodComponent CROISSANT = new FoodComponent.Builder()
+            .hunger(5)
+            .saturationModifier(0.35f)
+            .build();
 }
