@@ -203,4 +203,15 @@ public class ModFoodComponents {
             .hunger(5)
             .saturationModifier(0.35f)
             .build();
+
+    public static final FoodComponent BOLOGNA = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.2f)
+            .snack()
+            .build();
+
+    public static final FoodComponent CREAM_CHEESE = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.15f)
+            .build();
 }

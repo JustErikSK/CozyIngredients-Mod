@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ICE_CREAM_CONE);
                         entries.add(ModItems.BUTTER);
                         entries.add(ModItems.CHEESE);
+                        entries.add(ModItems.CREAM_CHEESE);
                         entries.add(ModItems.MILK_BOX);
                         entries.add(ModItems.GLASS_OF_WATER);
                         entries.add(ModItems.BOILED_EGG);
@@ -39,6 +40,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_CHIPS);
                         entries.add(ModItems.RAW_FRIES);
                         entries.add(ModItems.RAW_DINO_NUGGETS);
+                        entries.add(ModItems.BOLOGNA);
                         entries.add(ModItems.RAW_BACON);
                         entries.add(ModItems.BACON);
                         entries.add(ModItems.MINCED_BEEF);

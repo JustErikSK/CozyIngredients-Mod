@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:milk_box"
+    },
+    {
+      "item": "cozyingredients:cheese"
+    },
+    {
+      "item": "cozyingredients:whisk"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:cream_cheese",
+    "count": 4
+  }
+}

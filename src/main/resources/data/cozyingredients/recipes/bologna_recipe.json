@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:minced_chicken"
+    },
+    {
+      "item": "cozyingredients:minced_pork"
+    },
+    {
+      "item": "cozyingredients:salt"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:bologna",
+    "count": 4
+  }
+}
