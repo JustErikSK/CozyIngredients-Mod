@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cozyingredients:minced_beef",
+    "cozyingredients:minced_chicken",
+    "cozyingredients:minced_lamb",
+    "cozyingredients:minced_pork"
+  ]
+}

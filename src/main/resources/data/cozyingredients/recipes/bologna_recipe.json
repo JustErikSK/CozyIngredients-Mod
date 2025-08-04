@@ -3,10 +3,10 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:minced_chicken"
+      "tag": "cozyingredients:minced_meat"
     },
     {
-      "item": "cozyingredients:minced_pork"
+      "tag": "cozyingredients:minced_meat"
     },
     {
       "item": "cozyingredients:salt"
