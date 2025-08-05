@@ -214,4 +214,19 @@ public class ModFoodComponents {
             .hunger(2)
             .saturationModifier(0.15f)
             .build();
+
+    public static final FoodComponent CHOCOLATE_SYRUP = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.15f)
+            .build();
+
+    public static final FoodComponent FRUIT_SYRUP = new FoodComponent.Builder()
+            .hunger(2)
+            .saturationModifier(0.15f)
+            .build();
+
+    public static final FoodComponent WAFFLE = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.2f)
+            .build();
 }

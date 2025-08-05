@@ -20,9 +20,12 @@ public class ModItemGroups {
                         entries.add(ModItems.GLOWBERRY_JAM);
                         entries.add(ModItems.CARAMEL);
                         entries.add(ModItems.NUHTELLA);
+                        entries.add(ModItems.CHOCOLATE_SYRUP);
+                        entries.add(ModItems.FRUIT_SYRUP);
                         entries.add(ModItems.SLICE_OF_BREAD);
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.BURNED_TOAST);
+                        entries.add(ModItems.WAFFLE);
                         entries.add(ModItems.CROISSANT);
                         entries.add(ModItems.BURGER_BUN);
                         entries.add(ModItems.BAGEL);

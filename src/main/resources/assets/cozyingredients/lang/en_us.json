@@ -44,6 +44,9 @@
   "item.cozyingredients.croissant": "Croissant",
   "item.cozyingredients.bologna": "Bologna",
   "item.cozyingredients.cream_cheese": "Cream Cheese",
+  "item.cozyingredients.chocolate_syrup": "Chocolate Syrup",
+  "item.cozyingredients.fruit_syrup": "Fruit Syrup",
+  "item.cozyingredients.waffle": "Waffle",
 
   "block.cozyingredients.toaster": "Toaster",
   "block.cozyingredients.cloth": "Cloth",

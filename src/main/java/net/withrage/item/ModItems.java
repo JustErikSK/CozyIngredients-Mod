@@ -56,6 +56,9 @@ public class ModItems {
     public static final Item CROISSANT = registerItem("croissant", new Item(new FabricItemSettings().food(ModFoodComponents.CROISSANT)));
     public static final Item BOLOGNA = registerItem("bologna", new Item(new FabricItemSettings().food(ModFoodComponents.BOLOGNA)));
     public static final Item CREAM_CHEESE = registerItem("cream_cheese", new Item(new FabricItemSettings().food(ModFoodComponents.CREAM_CHEESE)));
+    public static final Item CHOCOLATE_SYRUP = registerItem("chocolate_syrup", new DrinkItem(new FabricItemSettings().food(ModFoodComponents.CHOCOLATE_SYRUP)));
+    public static final Item FRUIT_SYRUP = registerItem("fruit_syrup", new DrinkItem(new FabricItemSettings().food(ModFoodComponents.FRUIT_SYRUP)));
+    public static final Item WAFFLE = registerItem("waffle", new Item(new FabricItemSettings().food(ModFoodComponents.WAFFLE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);
