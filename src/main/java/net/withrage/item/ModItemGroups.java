@@ -56,6 +56,7 @@ public class ModItemGroups {
                         entries.add(ModItems.POWDERED_SUGAR);
                         entries.add(ModItems.WHIPPED_CREAM);
                         entries.add(ModItems.DOUGH);
+                        entries.add(ModItems.GELATIN);
                         entries.add(ModItems.JAR);
                         entries.add(ModItems.WHISK);
                         entries.add(ModItems.COOKING_KNIFE);
@@ -63,6 +64,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COOKING_POT);
                         entries.add(ModItems.PAN);
                         entries.add(ModItems.COOKIE_CUTTER);
+                        entries.add(ModItems.CAKE_FORM);
                         entries.add(ModBlocks.TOASTER);
                         entries.add(ModBlocks.CUTTING_BOARD);
                         entries.add(ModBlocks.CLOTH);
