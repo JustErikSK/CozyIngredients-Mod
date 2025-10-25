@@ -229,4 +229,9 @@ public class ModFoodComponents {
             .hunger(3)
             .saturationModifier(0.2f)
             .build();
+
+    public static final FoodComponent GELATIN = new FoodComponent.Builder()
+            .hunger(1)
+            .saturationModifier(0.1f)
+            .build();
 }
