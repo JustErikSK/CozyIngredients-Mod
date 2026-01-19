@@ -5,10 +5,13 @@
 	"name": "Cozy Ingredients",
 	"description": "Main dependency with basic ingredients. Needed for all mods from our Cozy mods series.",
 	"authors": [
-		"JustErikSK, Satorisek, With Rage Studios"
+		"JustErikSK",
+		"Satorisek",
+		"With Rage Studios"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/cozy-ingredients-mod",
+		"issues": "https://github.com/JustErikSK/CozyIngredients-Mod/issues",
 		"sources": "https://github.com/JustErikSK/CozyIngredients-Mod"
 	},
 	"license": "MIT",
