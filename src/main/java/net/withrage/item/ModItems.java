@@ -6,9 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.withrage.CozyIngredients;
-import net.withrage.item.custom.BurnedToastItem;
 import net.withrage.item.custom.MilkBoxItem;
-import net.withrage.item.custom.ToastItem;
 
 public class ModItems {
     public static final Item APPLE_JAM = registerItem("apple_jam", new Item(new FabricItemSettings().food(ModFoodComponents.APPLE_JAM)));
@@ -32,14 +30,14 @@ public class ModItems {
     public static final Item SLICE_OF_BREAD = registerItem("slice_of_bread", new Item(new FabricItemSettings().food(ModFoodComponents.SLICE_OF_BREAD)));
     public static final Item BOILED_EGG = registerItem("boiled_egg", new Item(new FabricItemSettings().food(ModFoodComponents.BOILED_EGG)));
     public static final Item BURGER_BUN = registerItem("burger_bun", new Item(new FabricItemSettings().food(ModFoodComponents.BURGER_BUN)));
-    public static final Item BURNED_TOAST = registerItem("burned_toast", new BurnedToastItem(new FabricItemSettings().food(ModFoodComponents.BURNED_TOAST)));
+    public static final Item BURNED_TOAST = registerItem("burned_toast", new Item(new FabricItemSettings().food(ModFoodComponents.BURNED_TOAST)));
     public static final Item NOODLES = registerItem("noodles", new Item(new FabricItemSettings().food(ModFoodComponents.NOODLES)));
     public static final Item PAN = registerItem("pan", new Item(new FabricItemSettings()));
     public static final Item RAW_CHIPS = registerItem("raw_chips", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_CHIPS)));
     public static final Item RAW_FRIES = registerItem("raw_fries", new Item(new FabricItemSettings().food(ModFoodComponents.RAW_FRIES)));
     public static final Item STARCH = registerItem("starch", new Item(new FabricItemSettings()));
     public static final Item SUNNY_SIDE_UP_EGG = registerItem("sunny_side_up_egg", new Item(new FabricItemSettings().food(ModFoodComponents.SUNNY_SIDE_UP_EGG)));
-    public static final Item TOAST = registerItem("toast", new ToastItem(new FabricItemSettings().food(ModFoodComponents.TOAST)));
+    public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings().food(ModFoodComponents.TOAST)));
     public static final Item FISHCAKE = registerItem("fishcake", new Item(new FabricItemSettings().food(ModFoodComponents.FISHCAKE)));
     public static final Item CLEAVER = registerItem("cleaver", new Item(new FabricItemSettings()));
     public static final Item MINCED_BEEF = registerItem("minced_beef", new Item(new FabricItemSettings().food(ModFoodComponents.MINCED_BEEF)));

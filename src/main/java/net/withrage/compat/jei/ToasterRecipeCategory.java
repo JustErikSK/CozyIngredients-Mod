@@ -34,7 +34,7 @@ public class ToasterRecipeCategory implements IRecipeCategory<ToasterRecipe> {
         this.icon = guiHelper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(ModBlocks.TOASTER));
         int arrowU = 176;
         int arrowV = 0;
-        int arrowW = 6;
+        int arrowW = 8;
         int arrowH = 26;
         this.arrowStatic = guiHelper.createDrawable(new Identifier("cozyingredients", "textures/gui/toaster_gui.png"), arrowU, arrowV, arrowW, arrowH);
         int durationTicks = 72;
