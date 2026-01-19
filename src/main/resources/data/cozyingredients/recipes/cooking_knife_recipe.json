@@ -15,6 +15,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:cooking_knife"
+    "item": "cozyingredients:cooking_knife",
+    "count": 1
   }
 }

@@ -12,6 +12,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:baguette"
+    "item": "cozyingredients:baguette",
+    "count": 2
   }
 }

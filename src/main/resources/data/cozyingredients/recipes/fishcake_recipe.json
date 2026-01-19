@@ -24,6 +24,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:fishcake"
+    "item": "cozyingredients:fishcake",
+    "count": 2
   }
 }

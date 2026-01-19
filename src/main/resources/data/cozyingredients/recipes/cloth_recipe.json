@@ -15,6 +15,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:cloth"
+    "item": "cozyingredients:cloth",
+    "count": 1
   }
 }

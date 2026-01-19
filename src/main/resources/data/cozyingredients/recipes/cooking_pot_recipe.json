@@ -12,6 +12,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:cooking_pot"
+    "item": "cozyingredients:cooking_pot",
+    "count": 1
   }
 }

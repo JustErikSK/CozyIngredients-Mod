@@ -15,6 +15,7 @@
     }
   },
   "result": {
-    "item": "cozyingredients:toaster"
+    "item": "cozyingredients:toaster",
+    "count": 1
   }
 }
