@@ -39,6 +39,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BOILED_EGG);
                         entries.add(ModItems.SUNNY_SIDE_UP_EGG);
                         entries.add(ModItems.FISHCAKE);
+                        entries.add(ModItems.EGG_WHITES);
+                        entries.add(ModItems.EGG_YOLKS);
                         entries.add(ModItems.NOODLES);
                         entries.add(ModItems.RAW_CHIPS);
                         entries.add(ModItems.RAW_FRIES);
@@ -54,6 +56,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FLOUR);
                         entries.add(ModItems.STARCH);
                         entries.add(ModItems.POWDERED_SUGAR);
+                        entries.add(ModItems.COCOA_POWDER);
                         entries.add(ModItems.WHIPPED_CREAM);
                         entries.add(ModItems.DOUGH);
                         entries.add(ModItems.GELATIN);
@@ -65,6 +68,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PAN);
                         entries.add(ModItems.COOKIE_CUTTER);
                         entries.add(ModItems.CAKE_FORM);
+                        entries.add(ModItems.RAMEKIN);
                         entries.add(ModBlocks.TOASTER);
                         entries.add(ModBlocks.CUTTING_BOARD);
                         entries.add(ModBlocks.CLOTH);

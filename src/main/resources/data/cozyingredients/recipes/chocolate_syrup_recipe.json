@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:jar"
+    },
+    {
+      "item": "cozyingredients:cocoa_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:chocolate_syrup",
+    "count": 1
+  }
+}

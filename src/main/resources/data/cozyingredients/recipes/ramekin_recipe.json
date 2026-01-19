@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "   ",
+    "A A",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:ramekin",
+    "count": 4
+  }
+}

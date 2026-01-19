@@ -49,6 +49,10 @@
   "item.cozyingredients.waffle": "Waffle",
   "item.cozyingredients.cake_form": "Cake Form",
   "item.cozyingredients.gelatin": "Gelatin",
+  "item.cozyingredients.ramekin": "Ramekin",
+  "item.cozyingredients.cocoa_powder": "Cocoa Powder",
+  "item.cozyingredients.egg_whites": "Egg Whites",
+  "item.cozyingredients.egg_yolks": "Egg Yolks",
 
   "block.cozyingredients.toaster": "Toaster",
   "block.cozyingredients.cloth": "Cloth",

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "cozyingredients:ramekin"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:egg_yolks",
+    "count": 1
+  }
+}

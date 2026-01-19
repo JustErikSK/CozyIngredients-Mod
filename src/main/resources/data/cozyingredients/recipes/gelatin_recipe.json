@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:egg_whites"
+    },
+    {
+      "item": "cozyingredients:whisk"
+    },
+    {
+      "item": "cozyingredients:cookie_cutter"
+    }
+  ],
+  "result": {
+    "item": "cozyingredients:gelatin",
+    "count": 1
+  }
+}

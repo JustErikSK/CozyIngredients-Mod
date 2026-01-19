@@ -61,6 +61,10 @@ public class ModItems {
     public static final Item WAFFLE = registerItem("waffle", new Item(new FabricItemSettings().food(ModFoodComponents.WAFFLE)));
     public static final Item CAKE_FORM = registerItem("cake_form", new Item(new FabricItemSettings()));
     public static final Item GELATIN = registerItem("gelatin", new Item(new FabricItemSettings().food(ModFoodComponents.GELATIN)));
+    public static final Item COCOA_POWDER = registerItem("cocoa_powder", new Item(new FabricItemSettings()));
+    public static final Item RAMEKIN = registerItem("ramekin", new Item(new FabricItemSettings()));
+    public static final Item EGG_YOLKS = registerItem("egg_yolks", new Item(new FabricItemSettings()));
+    public static final Item EGG_WHITES = registerItem("egg_whites", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyIngredients.MOD_ID, name), item);

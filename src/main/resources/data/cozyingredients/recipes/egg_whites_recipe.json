@@ -3,17 +3,17 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:dough"
+      "item": "minecraft:egg"
     },
     {
       "item": "cozyingredients:whisk"
     },
     {
-      "item": "cozyingredients:cake_form"
+      "item": "cozyingredients:ramekin"
     }
   ],
   "result": {
-    "item": "cozyingredients:waffle",
+    "item": "cozyingredients:egg_whites",
     "count": 1
   }
 }

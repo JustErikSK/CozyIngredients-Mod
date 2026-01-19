@@ -3,17 +3,14 @@
   "category": "food",
   "ingredients": [
     {
-      "item": "cozyingredients:dough"
+      "item": "minecraft:cocoa_beans"
     },
     {
       "item": "cozyingredients:whisk"
-    },
-    {
-      "item": "cozyingredients:cake_form"
     }
   ],
   "result": {
-    "item": "cozyingredients:waffle",
+    "item": "cozyingredients:cocoa_powder",
     "count": 1
   }
 }
