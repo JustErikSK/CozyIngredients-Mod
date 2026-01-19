@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "cozyingredients:cake_form",
+    "cozyingredients:cleaver",
+    "cozyingredients:cloth",
+    "cozyingredients:cookie_cutter",
+    "cozyingredients:cooking_knife",
+    "cozyingredients:cooking_pot",
+    "cozyingredients:cutting_board",
+    "cozyingredients:pan",
+    "cozyingredients:whisk"
+  ]
+}
