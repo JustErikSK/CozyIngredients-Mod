@@ -20,13 +20,13 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent BAGEL = new FoodComponent.Builder()
-            .hunger(6)
+            .hunger(5)
             .saturationModifier(0.4f)
             .build();
 
     public static final FoodComponent BAGUETTE = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.5f)
+            .hunger(6)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent BOILED_EGG = new FoodComponent.Builder()
@@ -42,7 +42,7 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent BURNED_TOAST = new FoodComponent.Builder()
-            .hunger(2)
+            .hunger(1)
             .saturationModifier(0.1f)
             .alwaysEdible()
             .snack()
@@ -85,7 +85,7 @@ public class ModFoodComponents {
 
     public static final FoodComponent GLOWBERRY_JAM = new FoodComponent.Builder()
             .hunger(4)
-            .saturationModifier(0.2f)
+            .saturationModifier(0.3f)
             .alwaysEdible()
             .snack()
             .build();
@@ -104,7 +104,7 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent MINCED_BEEF = new FoodComponent.Builder()
-            .hunger(3)
+            .hunger(2)
             .saturationModifier(0.1f)
             .meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 60, 1), 20)
@@ -120,7 +120,7 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent MINCED_LAMB = new FoodComponent.Builder()
-            .hunger(3)
+            .hunger(2)
             .saturationModifier(0.1f)
             .meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 60, 1), 20)
@@ -128,7 +128,7 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent MINCED_PORK = new FoodComponent.Builder()
-            .hunger(3)
+            .hunger(2)
             .saturationModifier(0.1f)
             .meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 60, 1), 20)
@@ -176,14 +176,14 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent SLICE_OF_BREAD = new FoodComponent.Builder()
-            .hunger(5)
-            .saturationModifier(0.3f)
+            .hunger(3)
+            .saturationModifier(0.2f)
             .snack()
             .build();
 
     public static final FoodComponent SUNNY_SIDE_UP_EGG = new FoodComponent.Builder()
             .hunger(3)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.35f)
             .snack()
             .build();
 
@@ -195,13 +195,13 @@ public class ModFoodComponents {
             .build();
 
     public static final FoodComponent TOAST = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.55f)
+            .hunger(5)
+            .saturationModifier(0.45f)
             .build();
 
     public static final FoodComponent CROISSANT = new FoodComponent.Builder()
-            .hunger(5)
-            .saturationModifier(0.35f)
+            .hunger(4)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent BOLOGNA = new FoodComponent.Builder()
