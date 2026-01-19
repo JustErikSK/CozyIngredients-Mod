@@ -11,10 +11,7 @@ base {
 }
 
 repositories {
-	maven {
-		name = "JEI"
-		url = "https://maven.blamejared.com"
-	}
+	maven { url = "https://maven.blamejared.com/" }
 }
 
 fabricApi {
@@ -28,6 +25,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modCompileOnly "mezz.jei:jei-1.20.1-fabric-api:15.20.0.129"
+	modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:15.20.0.129"
 }
 
 processResources {
@@ -62,9 +61,5 @@ publishing {
 		}
 	}
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
 	}
 }
