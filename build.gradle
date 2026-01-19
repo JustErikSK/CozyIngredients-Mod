@@ -12,6 +12,7 @@ base {
 
 repositories {
 	maven { url = "https://maven.blamejared.com/" }
+	maven { url = "https://modmaven.dev" }
 }
 
 fabricApi {
@@ -25,8 +26,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modCompileOnly "mezz.jei:jei-1.20.1-fabric-api:15.20.0.129"
-	modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:15.20.0.129"
+	modCompileOnly "mezz.jei:jei-1.20.1-fabric-api:15.20.0.112"
+	modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:15.20.0.112"
 }
 
 processResources {
