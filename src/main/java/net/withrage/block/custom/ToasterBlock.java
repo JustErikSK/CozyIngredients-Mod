@@ -32,7 +32,7 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
 
     private static final VoxelShape SHAPE = Block.createCuboidShape(5, 0, 3, 11, 6, 13);
 
-    @Override
+    @Override @SuppressWarnings("deprecation")
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction direction = state.get(Properties.HORIZONTAL_FACING);
         return rotateShape(direction, SHAPE);
@@ -89,27 +89,27 @@ public class ToasterBlock extends HorizontalFacingBlock implements BlockEntityPr
         return new ToasterBlockEntity(pos, state);
     }
 
-    @Override
+    @Override @SuppressWarnings("deprecation")
     public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
-        if (state.getBlock() != newState.getBlock()) {
-            BlockEntity blockEntity = world.getBlockEntity(pos);
-            if (blockEntity instanceof ToasterBlockEntity) {
-                ItemScatterer.spawn(world, pos, (ToasterBlockEntity)blockEntity);
-                world.updateComparators(pos,this);
+        if (!state.isOf(newState.getBlock())) {
+            BlockEntity be = world.getBlockEntity(pos);
+            if (be instanceof ToasterBlockEntity toaster) {
+                ItemScatterer.spawn(world, pos, toaster);
+                world.updateComparators(pos, this);
             }
-            super.onStateReplaced(state, world, pos, newState, moved);
         }
+        super.onStateReplaced(state, world, pos, newState, moved);
     }
 
-    @Override
+    @Override @SuppressWarnings("deprecation")
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (!world.isClient) {
-            BlockEntity be = world.getBlockEntity(pos);
-            if (be instanceof ToasterBlockEntity) {
-                player.openHandledScreen((NamedScreenHandlerFactory) be);
-            }
+        if (world.isClient) return ActionResult.SUCCESS;
+
+        BlockEntity be = world.getBlockEntity(pos);
+        if (be instanceof NamedScreenHandlerFactory factory) {
+            player.openHandledScreen(factory);
         }
-        return ActionResult.SUCCESS;
+        return ActionResult.CONSUME;
     }
 
     @Override
