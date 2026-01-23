@@ -23,11 +23,11 @@ public class CozyIngredientsJEIPlugin implements IModPlugin {
     private static final Identifier ID = new Identifier(CozyIngredients.MOD_ID, "jei_plugin");
 
     static {
-        CozyIngredients.LOGGER.info("JEI PLUGIN CLASS LOADED (static init)");
+        CozyIngredients.LOGGER.info("JEI PLUGIN CLASS LOADED");
     }
 
     public CozyIngredientsJEIPlugin() {
-        CozyIngredients.LOGGER.info("JEI PLUGIN INSTANCE CREATED (constructor)");
+        CozyIngredients.LOGGER.info("JEI PLUGIN INSTANCE CREATED");
     }
 
     @Override
