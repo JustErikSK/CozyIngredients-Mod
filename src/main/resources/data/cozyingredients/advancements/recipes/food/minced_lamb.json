@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lamb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mutton"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cozyingredients:minced_lamb_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lamb",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cozyingredients:minced_lamb_recipe"
+    ]
+  },
+  "sends_telemetry_event": false
+}
