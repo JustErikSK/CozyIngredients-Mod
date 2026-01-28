@@ -17,7 +17,7 @@ import net.withrage.block.custom.ToasterBlock;
 public class ModBlocks {
 
     public static final Block TOASTER = registerBlock("toaster",
-            new ToasterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new ToasterBlock(FabricBlockSettings.copyOf(Blocks.SPAWNER).nonOpaque().requiresTool()));
 
     public static final Block CLOTH = registerBlock("cloth",
             new ClothBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
