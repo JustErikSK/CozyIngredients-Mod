@@ -15,7 +15,7 @@
 		"sources": "https://github.com/JustErikSK/CozyIngredients-Mod"
 	},
 	"license": "MIT",
-	"icon": "assets/cozyingredients/cozyingredients_mod-icon.png",
+	"icon": "assets/cozyingredients/cozyingredients-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
